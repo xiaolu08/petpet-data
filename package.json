@@ -1,0 +1,14 @@
+{
+  "name": "petpet-data-test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "buildIndex": "node scripts/index-builder.cjs",
+    "unzip": "node scripts/unzip.cjs"
+  },
+  "author": "Dituon",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "extract-zip": "^2.0.1"
+  }
+}
